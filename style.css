@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1DB954;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.spoti-logo { 
+    margin-left: 1200px;
+}
+
+.songs {
+  background-color: #f7f7f7;
+}
+
+.playlist {
+  background-color: #fff;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.song-list li:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.song-list li .song-title {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.add-song-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.add-song-form input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.add-song-form input[type="submit"] {
+  background-color: #1DB954;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.most-played {
+  text-align: center;
+}
